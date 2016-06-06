@@ -176,6 +176,7 @@ ModelImporter:
     4300008: capsule
     7400000: Open
     7400002: Close
+    7400004: Start
     9500000: //RootNode
     13700000: capsule
     13700002: filter_coal
@@ -400,6 +401,198 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 120
       lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cigarette
+        weight: 1
+      - path: cigarette/capsule
+        weight: 1
+      - path: cigarette/capsule_controller
+        weight: 1
+      - path: cigarette/capsule_controller/joint70
+        weight: 1
+      - path: cigarette/coal_controller
+        weight: 1
+      - path: cigarette/coal_controller/joint68
+        weight: 1
+      - path: cigarette/filter_coal
+        weight: 1
+      - path: cigarette/filter_last
+        weight: 1
+      - path: cigarette/last_filter_controller
+        weight: 1
+      - path: cigarette/last_filter_controller/joint69
+        weight: 1
+      - path: cigarette/tobacco
+        weight: 1
+      - path: cigarette/tobacco_controller
+        weight: 1
+      - path: cigarette/tobacco_controller/joint67
+        weight: 1
+      - path: paper1
+        weight: 1
+      - path: paper_Joints
+        weight: 1
+      - path: paper_Joints/joint1
+        weight: 1
+      - path: paper_Joints/joint2
+        weight: 1
+      - path: paper_Joints/joint3
+        weight: 1
+      - path: paper_Joints/joint4
+        weight: 1
+      - path: paper_Joints/joint5
+        weight: 1
+      - path: paper_Joints/joint6
+        weight: 1
+      - path: paper_Joints/joint7
+        weight: 1
+      - path: paper_Joints/joint8
+        weight: 1
+      - path: paper_Joints/joint9
+        weight: 1
+      - path: paper_Joints/joint10
+        weight: 1
+      - path: paper_Joints/joint11
+        weight: 1
+      - path: paper_Joints/joint12
+        weight: 1
+      - path: paper_Joints/joint13
+        weight: 1
+      - path: paper_Joints/joint14
+        weight: 1
+      - path: paper_Joints/joint15
+        weight: 1
+      - path: paper_Joints/joint16
+        weight: 1
+      - path: paper_Joints/joint17
+        weight: 1
+      - path: paper_Joints/joint18
+        weight: 1
+      - path: paper_Joints/joint19
+        weight: 1
+      - path: paper_Joints/joint20
+        weight: 1
+      - path: paper_Joints/joint21
+        weight: 1
+      - path: paper_Joints/joint22
+        weight: 1
+      - path: paper_Joints/joint23
+        weight: 1
+      - path: paper_Joints/joint24
+        weight: 1
+      - path: paper_Joints/joint25
+        weight: 1
+      - path: paper_Joints/joint26
+        weight: 1
+      - path: paper_Joints/joint27
+        weight: 1
+      - path: paper_Joints/joint28
+        weight: 1
+      - path: paper_Joints/joint29
+        weight: 1
+      - path: paper_Joints/joint30
+        weight: 1
+      - path: paper_Joints/joint31
+        weight: 1
+      - path: paper_Joints/joint32
+        weight: 1
+      - path: paper_Joints/joint33
+        weight: 1
+      - path: paper_Joints/joint34
+        weight: 1
+      - path: paper_Joints/joint35
+        weight: 1
+      - path: paper_Joints/joint36
+        weight: 1
+      - path: paper_Joints/joint37
+        weight: 1
+      - path: paper_Joints/joint38
+        weight: 1
+      - path: paper_Joints/joint39
+        weight: 1
+      - path: paper_Joints/joint40
+        weight: 1
+      - path: paper_Joints/joint41
+        weight: 1
+      - path: paper_Joints/joint42
+        weight: 1
+      - path: paper_Joints/joint43
+        weight: 1
+      - path: paper_Joints/joint44
+        weight: 1
+      - path: paper_Joints/joint45
+        weight: 1
+      - path: paper_Joints/joint46
+        weight: 1
+      - path: paper_Joints/joint47
+        weight: 1
+      - path: paper_Joints/joint48
+        weight: 1
+      - path: paper_Joints/joint49
+        weight: 1
+      - path: paper_Joints/joint50
+        weight: 1
+      - path: paper_Joints/joint51
+        weight: 1
+      - path: paper_Joints/joint52
+        weight: 1
+      - path: paper_Joints/joint53
+        weight: 1
+      - path: paper_Joints/joint54
+        weight: 1
+      - path: paper_Joints/joint55
+        weight: 1
+      - path: paper_Joints/joint56
+        weight: 1
+      - path: paper_Joints/joint57
+        weight: 1
+      - path: paper_Joints/joint58
+        weight: 1
+      - path: paper_Joints/joint59
+        weight: 1
+      - path: paper_Joints/joint60
+        weight: 1
+      - path: paper_Joints/joint61
+        weight: 1
+      - path: paper_Joints/joint62
+        weight: 1
+      - path: paper_Joints/joint63
+        weight: 1
+      - path: paper_Joints/joint64
+        weight: 1
+      - path: paper_Joints/joint65
+        weight: 1
+      - path: paper_Joints/joint66
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Start
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
