@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 7b5b553ec005f7a4c8f1d9a0b5d84ac5
+timeCreated: 1464599913
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: filter1
+    100004: filter2
+    100006: joint100
+    100008: joint101
+    100010: joint102
+    100012: joint103
+    100014: joint104
+    100016: joint105
+    100018: joint106
+    100020: joint107
+    100022: joint109
+    100024: joint110
+    100026: joint111
+    100028: joint112
+    100030: joint113
+    100032: joint114
+    100034: joint115
+    100036: joint116
+    100038: joint117
+    100040: joint118
+    100042: joint119
+    100044: joint120
+    100046: joint121
+    100048: joint122
+    100050: joint123
+    100052: joint124
+    100054: joint125
+    100056: joint126
+    100058: joint127
+    100060: joint128
+    100062: joint129
+    100064: joint130
+    100066: joint131
+    100068: joint132
+    100070: joint133
+    100072: joint134
+    100074: joint135
+    100076: joint136
+    100078: joint137
+    100080: joint138
+    100082: joint139
+    100084: joint140
+    100086: joint76
+    100088: joint77
+    100090: joint78
+    100092: joint79
+    100094: joint80
+    100096: joint81
+    100098: joint82
+    100100: joint83
+    100102: joint84
+    100104: joint85
+    100106: joint86
+    100108: joint87
+    100110: joint88
+    100112: joint89
+    100114: joint90
+    100116: joint91
+    100118: joint92
+    100120: joint93
+    100122: joint94
+    100124: joint95
+    100126: joint96
+    100128: joint97
+    100130: joint98
+    100132: joint99
+    100134: paper1
+    100136: pPlane5_Joints
+    100138: tobacco
+    400000: //RootNode
+    400002: filter1
+    400004: filter2
+    400006: joint100
+    400008: joint101
+    400010: joint102
+    400012: joint103
+    400014: joint104
+    400016: joint105
+    400018: joint106
+    400020: joint107
+    400022: joint109
+    400024: joint110
+    400026: joint111
+    400028: joint112
+    400030: joint113
+    400032: joint114
+    400034: joint115
+    400036: joint116
+    400038: joint117
+    400040: joint118
+    400042: joint119
+    400044: joint120
+    400046: joint121
+    400048: joint122
+    400050: joint123
+    400052: joint124
+    400054: joint125
+    400056: joint126
+    400058: joint127
+    400060: joint128
+    400062: joint129
+    400064: joint130
+    400066: joint131
+    400068: joint132
+    400070: joint133
+    400072: joint134
+    400074: joint135
+    400076: joint136
+    400078: joint137
+    400080: joint138
+    400082: joint139
+    400084: joint140
+    400086: joint76
+    400088: joint77
+    400090: joint78
+    400092: joint79
+    400094: joint80
+    400096: joint81
+    400098: joint82
+    400100: joint83
+    400102: joint84
+    400104: joint85
+    400106: joint86
+    400108: joint87
+    400110: joint88
+    400112: joint89
+    400114: joint90
+    400116: joint91
+    400118: joint92
+    400120: joint93
+    400122: joint94
+    400124: joint95
+    400126: joint96
+    400128: joint97
+    400130: joint98
+    400132: joint99
+    400134: paper1
+    400136: pPlane5_Joints
+    400138: tobacco
+    2300000: filter1
+    2300002: filter2
+    2300004: tobacco
+    3300000: filter1
+    3300002: filter2
+    3300004: tobacco
+    4300000: paper1
+    4300002: filter1
+    4300004: filter2
+    4300006: tobacco
+    7400000: Open
+    7400002: Close
+    9500000: //RootNode
+    13700000: paper1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: filter1
+        weight: 1
+      - path: filter2
+        weight: 1
+      - path: paper1
+        weight: 1
+      - path: pPlane5_Joints
+        weight: 1
+      - path: pPlane5_Joints/joint76
+        weight: 1
+      - path: pPlane5_Joints/joint77
+        weight: 1
+      - path: pPlane5_Joints/joint78
+        weight: 1
+      - path: pPlane5_Joints/joint79
+        weight: 1
+      - path: pPlane5_Joints/joint80
+        weight: 1
+      - path: pPlane5_Joints/joint81
+        weight: 1
+      - path: pPlane5_Joints/joint82
+        weight: 1
+      - path: pPlane5_Joints/joint83
+        weight: 1
+      - path: pPlane5_Joints/joint84
+        weight: 1
+      - path: pPlane5_Joints/joint85
+        weight: 1
+      - path: pPlane5_Joints/joint86
+        weight: 1
+      - path: pPlane5_Joints/joint87
+        weight: 1
+      - path: pPlane5_Joints/joint88
+        weight: 1
+      - path: pPlane5_Joints/joint89
+        weight: 1
+      - path: pPlane5_Joints/joint90
+        weight: 1
+      - path: pPlane5_Joints/joint91
+        weight: 1
+      - path: pPlane5_Joints/joint92
+        weight: 1
+      - path: pPlane5_Joints/joint93
+        weight: 1
+      - path: pPlane5_Joints/joint94
+        weight: 1
+      - path: pPlane5_Joints/joint95
+        weight: 1
+      - path: pPlane5_Joints/joint96
+        weight: 1
+      - path: pPlane5_Joints/joint97
+        weight: 1
+      - path: pPlane5_Joints/joint98
+        weight: 1
+      - path: pPlane5_Joints/joint99
+        weight: 1
+      - path: pPlane5_Joints/joint100
+        weight: 1
+      - path: pPlane5_Joints/joint101
+        weight: 1
+      - path: pPlane5_Joints/joint102
+        weight: 1
+      - path: pPlane5_Joints/joint103
+        weight: 1
+      - path: pPlane5_Joints/joint104
+        weight: 1
+      - path: pPlane5_Joints/joint105
+        weight: 1
+      - path: pPlane5_Joints/joint106
+        weight: 1
+      - path: pPlane5_Joints/joint107
+        weight: 1
+      - path: pPlane5_Joints/joint109
+        weight: 1
+      - path: pPlane5_Joints/joint110
+        weight: 1
+      - path: pPlane5_Joints/joint111
+        weight: 1
+      - path: pPlane5_Joints/joint112
+        weight: 1
+      - path: pPlane5_Joints/joint113
+        weight: 1
+      - path: pPlane5_Joints/joint114
+        weight: 1
+      - path: pPlane5_Joints/joint115
+        weight: 1
+      - path: pPlane5_Joints/joint116
+        weight: 1
+      - path: pPlane5_Joints/joint117
+        weight: 1
+      - path: pPlane5_Joints/joint118
+        weight: 1
+      - path: pPlane5_Joints/joint119
+        weight: 1
+      - path: pPlane5_Joints/joint120
+        weight: 1
+      - path: pPlane5_Joints/joint121
+        weight: 1
+      - path: pPlane5_Joints/joint122
+        weight: 1
+      - path: pPlane5_Joints/joint123
+        weight: 1
+      - path: pPlane5_Joints/joint124
+        weight: 1
+      - path: pPlane5_Joints/joint125
+        weight: 1
+      - path: pPlane5_Joints/joint126
+        weight: 1
+      - path: pPlane5_Joints/joint127
+        weight: 1
+      - path: pPlane5_Joints/joint128
+        weight: 1
+      - path: pPlane5_Joints/joint129
+        weight: 1
+      - path: pPlane5_Joints/joint130
+        weight: 1
+      - path: pPlane5_Joints/joint131
+        weight: 1
+      - path: pPlane5_Joints/joint132
+        weight: 1
+      - path: pPlane5_Joints/joint133
+        weight: 1
+      - path: pPlane5_Joints/joint134
+        weight: 1
+      - path: pPlane5_Joints/joint135
+        weight: 1
+      - path: pPlane5_Joints/joint136
+        weight: 1
+      - path: pPlane5_Joints/joint137
+        weight: 1
+      - path: pPlane5_Joints/joint138
+        weight: 1
+      - path: pPlane5_Joints/joint139
+        weight: 1
+      - path: pPlane5_Joints/joint140
+        weight: 1
+      - path: tobacco
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Close
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: filter1
+        weight: 1
+      - path: filter2
+        weight: 1
+      - path: paper1
+        weight: 1
+      - path: pPlane5_Joints
+        weight: 1
+      - path: pPlane5_Joints/joint76
+        weight: 1
+      - path: pPlane5_Joints/joint77
+        weight: 1
+      - path: pPlane5_Joints/joint78
+        weight: 1
+      - path: pPlane5_Joints/joint79
+        weight: 1
+      - path: pPlane5_Joints/joint80
+        weight: 1
+      - path: pPlane5_Joints/joint81
+        weight: 1
+      - path: pPlane5_Joints/joint82
+        weight: 1
+      - path: pPlane5_Joints/joint83
+        weight: 1
+      - path: pPlane5_Joints/joint84
+        weight: 1
+      - path: pPlane5_Joints/joint85
+        weight: 1
+      - path: pPlane5_Joints/joint86
+        weight: 1
+      - path: pPlane5_Joints/joint87
+        weight: 1
+      - path: pPlane5_Joints/joint88
+        weight: 1
+      - path: pPlane5_Joints/joint89
+        weight: 1
+      - path: pPlane5_Joints/joint90
+        weight: 1
+      - path: pPlane5_Joints/joint91
+        weight: 1
+      - path: pPlane5_Joints/joint92
+        weight: 1
+      - path: pPlane5_Joints/joint93
+        weight: 1
+      - path: pPlane5_Joints/joint94
+        weight: 1
+      - path: pPlane5_Joints/joint95
+        weight: 1
+      - path: pPlane5_Joints/joint96
+        weight: 1
+      - path: pPlane5_Joints/joint97
+        weight: 1
+      - path: pPlane5_Joints/joint98
+        weight: 1
+      - path: pPlane5_Joints/joint99
+        weight: 1
+      - path: pPlane5_Joints/joint100
+        weight: 1
+      - path: pPlane5_Joints/joint101
+        weight: 1
+      - path: pPlane5_Joints/joint102
+        weight: 1
+      - path: pPlane5_Joints/joint103
+        weight: 1
+      - path: pPlane5_Joints/joint104
+        weight: 1
+      - path: pPlane5_Joints/joint105
+        weight: 1
+      - path: pPlane5_Joints/joint106
+        weight: 1
+      - path: pPlane5_Joints/joint107
+        weight: 1
+      - path: pPlane5_Joints/joint109
+        weight: 1
+      - path: pPlane5_Joints/joint110
+        weight: 1
+      - path: pPlane5_Joints/joint111
+        weight: 1
+      - path: pPlane5_Joints/joint112
+        weight: 1
+      - path: pPlane5_Joints/joint113
+        weight: 1
+      - path: pPlane5_Joints/joint114
+        weight: 1
+      - path: pPlane5_Joints/joint115
+        weight: 1
+      - path: pPlane5_Joints/joint116
+        weight: 1
+      - path: pPlane5_Joints/joint117
+        weight: 1
+      - path: pPlane5_Joints/joint118
+        weight: 1
+      - path: pPlane5_Joints/joint119
+        weight: 1
+      - path: pPlane5_Joints/joint120
+        weight: 1
+      - path: pPlane5_Joints/joint121
+        weight: 1
+      - path: pPlane5_Joints/joint122
+        weight: 1
+      - path: pPlane5_Joints/joint123
+        weight: 1
+      - path: pPlane5_Joints/joint124
+        weight: 1
+      - path: pPlane5_Joints/joint125
+        weight: 1
+      - path: pPlane5_Joints/joint126
+        weight: 1
+      - path: pPlane5_Joints/joint127
+        weight: 1
+      - path: pPlane5_Joints/joint128
+        weight: 1
+      - path: pPlane5_Joints/joint129
+        weight: 1
+      - path: pPlane5_Joints/joint130
+        weight: 1
+      - path: pPlane5_Joints/joint131
+        weight: 1
+      - path: pPlane5_Joints/joint132
+        weight: 1
+      - path: pPlane5_Joints/joint133
+        weight: 1
+      - path: pPlane5_Joints/joint134
+        weight: 1
+      - path: pPlane5_Joints/joint135
+        weight: 1
+      - path: pPlane5_Joints/joint136
+        weight: 1
+      - path: pPlane5_Joints/joint137
+        weight: 1
+      - path: pPlane5_Joints/joint138
+        weight: 1
+      - path: pPlane5_Joints/joint139
+        weight: 1
+      - path: pPlane5_Joints/joint140
+        weight: 1
+      - path: tobacco
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

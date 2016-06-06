@@ -1,0 +1,632 @@
+fileFormatVersion: 2
+guid: 5d8ce419111ed9e4a9a503e83e0a0fe4
+timeCreated: 1464775371
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: capsule
+    100002: capsule_controller
+    100004: cigarette
+    100006: //RootNode
+    100008: coal_controller
+    100010: filter_coal
+    100012: filter_last
+    100014: joint1
+    100016: joint10
+    100018: joint11
+    100020: joint12
+    100022: joint13
+    100024: joint14
+    100026: joint15
+    100028: joint16
+    100030: joint17
+    100032: joint18
+    100034: joint19
+    100036: joint2
+    100038: joint20
+    100040: joint21
+    100042: joint22
+    100044: joint23
+    100046: joint24
+    100048: joint25
+    100050: joint26
+    100052: joint27
+    100054: joint28
+    100056: joint29
+    100058: joint3
+    100060: joint30
+    100062: joint31
+    100064: joint32
+    100066: joint33
+    100068: joint34
+    100070: joint35
+    100072: joint36
+    100074: joint37
+    100076: joint38
+    100078: joint39
+    100080: joint4
+    100082: joint40
+    100084: joint41
+    100086: joint42
+    100088: joint43
+    100090: joint44
+    100092: joint45
+    100094: joint46
+    100096: joint47
+    100098: joint48
+    100100: joint49
+    100102: joint5
+    100104: joint50
+    100106: joint51
+    100108: joint52
+    100110: joint53
+    100112: joint54
+    100114: joint55
+    100116: joint56
+    100118: joint57
+    100120: joint58
+    100122: joint59
+    100124: joint6
+    100126: joint60
+    100128: joint61
+    100130: joint62
+    100132: joint63
+    100134: joint64
+    100136: joint65
+    100138: joint66
+    100140: joint67
+    100142: joint68
+    100144: joint69
+    100146: joint7
+    100148: joint70
+    100150: joint8
+    100152: joint9
+    100154: last_filter_controller
+    100156: paper1
+    100158: paper_Joints
+    100160: tobacco
+    100162: tobacco_controller
+    400000: capsule
+    400002: capsule_controller
+    400004: cigarette
+    400006: //RootNode
+    400008: coal_controller
+    400010: filter_coal
+    400012: filter_last
+    400014: joint1
+    400016: joint10
+    400018: joint11
+    400020: joint12
+    400022: joint13
+    400024: joint14
+    400026: joint15
+    400028: joint16
+    400030: joint17
+    400032: joint18
+    400034: joint19
+    400036: joint2
+    400038: joint20
+    400040: joint21
+    400042: joint22
+    400044: joint23
+    400046: joint24
+    400048: joint25
+    400050: joint26
+    400052: joint27
+    400054: joint28
+    400056: joint29
+    400058: joint3
+    400060: joint30
+    400062: joint31
+    400064: joint32
+    400066: joint33
+    400068: joint34
+    400070: joint35
+    400072: joint36
+    400074: joint37
+    400076: joint38
+    400078: joint39
+    400080: joint4
+    400082: joint40
+    400084: joint41
+    400086: joint42
+    400088: joint43
+    400090: joint44
+    400092: joint45
+    400094: joint46
+    400096: joint47
+    400098: joint48
+    400100: joint49
+    400102: joint5
+    400104: joint50
+    400106: joint51
+    400108: joint52
+    400110: joint53
+    400112: joint54
+    400114: joint55
+    400116: joint56
+    400118: joint57
+    400120: joint58
+    400122: joint59
+    400124: joint6
+    400126: joint60
+    400128: joint61
+    400130: joint62
+    400132: joint63
+    400134: joint64
+    400136: joint65
+    400138: joint66
+    400140: joint67
+    400142: joint68
+    400144: joint69
+    400146: joint7
+    400148: joint70
+    400150: joint8
+    400152: joint9
+    400154: last_filter_controller
+    400156: paper1
+    400158: paper_Joints
+    400160: tobacco
+    400162: tobacco_controller
+    4300000: paper1
+    4300002: tobacco
+    4300004: filter_last
+    4300006: filter_coal
+    4300008: capsule
+    7400000: Open
+    7400002: Close
+    9500000: //RootNode
+    13700000: capsule
+    13700002: filter_coal
+    13700004: filter_last
+    13700006: paper1
+    13700008: tobacco
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cigarette
+        weight: 1
+      - path: cigarette/capsule
+        weight: 1
+      - path: cigarette/capsule_controller
+        weight: 1
+      - path: cigarette/capsule_controller/joint70
+        weight: 1
+      - path: cigarette/coal_controller
+        weight: 1
+      - path: cigarette/coal_controller/joint68
+        weight: 1
+      - path: cigarette/filter_coal
+        weight: 1
+      - path: cigarette/filter_last
+        weight: 1
+      - path: cigarette/last_filter_controller
+        weight: 1
+      - path: cigarette/last_filter_controller/joint69
+        weight: 1
+      - path: cigarette/tobacco
+        weight: 1
+      - path: cigarette/tobacco_controller
+        weight: 1
+      - path: cigarette/tobacco_controller/joint67
+        weight: 1
+      - path: paper1
+        weight: 1
+      - path: paper_Joints
+        weight: 1
+      - path: paper_Joints/joint1
+        weight: 1
+      - path: paper_Joints/joint2
+        weight: 1
+      - path: paper_Joints/joint3
+        weight: 1
+      - path: paper_Joints/joint4
+        weight: 1
+      - path: paper_Joints/joint5
+        weight: 1
+      - path: paper_Joints/joint6
+        weight: 1
+      - path: paper_Joints/joint7
+        weight: 1
+      - path: paper_Joints/joint8
+        weight: 1
+      - path: paper_Joints/joint9
+        weight: 1
+      - path: paper_Joints/joint10
+        weight: 1
+      - path: paper_Joints/joint11
+        weight: 1
+      - path: paper_Joints/joint12
+        weight: 1
+      - path: paper_Joints/joint13
+        weight: 1
+      - path: paper_Joints/joint14
+        weight: 1
+      - path: paper_Joints/joint15
+        weight: 1
+      - path: paper_Joints/joint16
+        weight: 1
+      - path: paper_Joints/joint17
+        weight: 1
+      - path: paper_Joints/joint18
+        weight: 1
+      - path: paper_Joints/joint19
+        weight: 1
+      - path: paper_Joints/joint20
+        weight: 1
+      - path: paper_Joints/joint21
+        weight: 1
+      - path: paper_Joints/joint22
+        weight: 1
+      - path: paper_Joints/joint23
+        weight: 1
+      - path: paper_Joints/joint24
+        weight: 1
+      - path: paper_Joints/joint25
+        weight: 1
+      - path: paper_Joints/joint26
+        weight: 1
+      - path: paper_Joints/joint27
+        weight: 1
+      - path: paper_Joints/joint28
+        weight: 1
+      - path: paper_Joints/joint29
+        weight: 1
+      - path: paper_Joints/joint30
+        weight: 1
+      - path: paper_Joints/joint31
+        weight: 1
+      - path: paper_Joints/joint32
+        weight: 1
+      - path: paper_Joints/joint33
+        weight: 1
+      - path: paper_Joints/joint34
+        weight: 1
+      - path: paper_Joints/joint35
+        weight: 1
+      - path: paper_Joints/joint36
+        weight: 1
+      - path: paper_Joints/joint37
+        weight: 1
+      - path: paper_Joints/joint38
+        weight: 1
+      - path: paper_Joints/joint39
+        weight: 1
+      - path: paper_Joints/joint40
+        weight: 1
+      - path: paper_Joints/joint41
+        weight: 1
+      - path: paper_Joints/joint42
+        weight: 1
+      - path: paper_Joints/joint43
+        weight: 1
+      - path: paper_Joints/joint44
+        weight: 1
+      - path: paper_Joints/joint45
+        weight: 1
+      - path: paper_Joints/joint46
+        weight: 1
+      - path: paper_Joints/joint47
+        weight: 1
+      - path: paper_Joints/joint48
+        weight: 1
+      - path: paper_Joints/joint49
+        weight: 1
+      - path: paper_Joints/joint50
+        weight: 1
+      - path: paper_Joints/joint51
+        weight: 1
+      - path: paper_Joints/joint52
+        weight: 1
+      - path: paper_Joints/joint53
+        weight: 1
+      - path: paper_Joints/joint54
+        weight: 1
+      - path: paper_Joints/joint55
+        weight: 1
+      - path: paper_Joints/joint56
+        weight: 1
+      - path: paper_Joints/joint57
+        weight: 1
+      - path: paper_Joints/joint58
+        weight: 1
+      - path: paper_Joints/joint59
+        weight: 1
+      - path: paper_Joints/joint60
+        weight: 1
+      - path: paper_Joints/joint61
+        weight: 1
+      - path: paper_Joints/joint62
+        weight: 1
+      - path: paper_Joints/joint63
+        weight: 1
+      - path: paper_Joints/joint64
+        weight: 1
+      - path: paper_Joints/joint65
+        weight: 1
+      - path: paper_Joints/joint66
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Close
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cigarette
+        weight: 1
+      - path: cigarette/capsule
+        weight: 1
+      - path: cigarette/capsule_controller
+        weight: 1
+      - path: cigarette/capsule_controller/joint70
+        weight: 1
+      - path: cigarette/coal_controller
+        weight: 1
+      - path: cigarette/coal_controller/joint68
+        weight: 1
+      - path: cigarette/filter_coal
+        weight: 1
+      - path: cigarette/filter_last
+        weight: 1
+      - path: cigarette/last_filter_controller
+        weight: 1
+      - path: cigarette/last_filter_controller/joint69
+        weight: 1
+      - path: cigarette/tobacco
+        weight: 1
+      - path: cigarette/tobacco_controller
+        weight: 1
+      - path: cigarette/tobacco_controller/joint67
+        weight: 1
+      - path: paper1
+        weight: 1
+      - path: paper_Joints
+        weight: 1
+      - path: paper_Joints/joint1
+        weight: 1
+      - path: paper_Joints/joint2
+        weight: 1
+      - path: paper_Joints/joint3
+        weight: 1
+      - path: paper_Joints/joint4
+        weight: 1
+      - path: paper_Joints/joint5
+        weight: 1
+      - path: paper_Joints/joint6
+        weight: 1
+      - path: paper_Joints/joint7
+        weight: 1
+      - path: paper_Joints/joint8
+        weight: 1
+      - path: paper_Joints/joint9
+        weight: 1
+      - path: paper_Joints/joint10
+        weight: 1
+      - path: paper_Joints/joint11
+        weight: 1
+      - path: paper_Joints/joint12
+        weight: 1
+      - path: paper_Joints/joint13
+        weight: 1
+      - path: paper_Joints/joint14
+        weight: 1
+      - path: paper_Joints/joint15
+        weight: 1
+      - path: paper_Joints/joint16
+        weight: 1
+      - path: paper_Joints/joint17
+        weight: 1
+      - path: paper_Joints/joint18
+        weight: 1
+      - path: paper_Joints/joint19
+        weight: 1
+      - path: paper_Joints/joint20
+        weight: 1
+      - path: paper_Joints/joint21
+        weight: 1
+      - path: paper_Joints/joint22
+        weight: 1
+      - path: paper_Joints/joint23
+        weight: 1
+      - path: paper_Joints/joint24
+        weight: 1
+      - path: paper_Joints/joint25
+        weight: 1
+      - path: paper_Joints/joint26
+        weight: 1
+      - path: paper_Joints/joint27
+        weight: 1
+      - path: paper_Joints/joint28
+        weight: 1
+      - path: paper_Joints/joint29
+        weight: 1
+      - path: paper_Joints/joint30
+        weight: 1
+      - path: paper_Joints/joint31
+        weight: 1
+      - path: paper_Joints/joint32
+        weight: 1
+      - path: paper_Joints/joint33
+        weight: 1
+      - path: paper_Joints/joint34
+        weight: 1
+      - path: paper_Joints/joint35
+        weight: 1
+      - path: paper_Joints/joint36
+        weight: 1
+      - path: paper_Joints/joint37
+        weight: 1
+      - path: paper_Joints/joint38
+        weight: 1
+      - path: paper_Joints/joint39
+        weight: 1
+      - path: paper_Joints/joint40
+        weight: 1
+      - path: paper_Joints/joint41
+        weight: 1
+      - path: paper_Joints/joint42
+        weight: 1
+      - path: paper_Joints/joint43
+        weight: 1
+      - path: paper_Joints/joint44
+        weight: 1
+      - path: paper_Joints/joint45
+        weight: 1
+      - path: paper_Joints/joint46
+        weight: 1
+      - path: paper_Joints/joint47
+        weight: 1
+      - path: paper_Joints/joint48
+        weight: 1
+      - path: paper_Joints/joint49
+        weight: 1
+      - path: paper_Joints/joint50
+        weight: 1
+      - path: paper_Joints/joint51
+        weight: 1
+      - path: paper_Joints/joint52
+        weight: 1
+      - path: paper_Joints/joint53
+        weight: 1
+      - path: paper_Joints/joint54
+        weight: 1
+      - path: paper_Joints/joint55
+        weight: 1
+      - path: paper_Joints/joint56
+        weight: 1
+      - path: paper_Joints/joint57
+        weight: 1
+      - path: paper_Joints/joint58
+        weight: 1
+      - path: paper_Joints/joint59
+        weight: 1
+      - path: paper_Joints/joint60
+        weight: 1
+      - path: paper_Joints/joint61
+        weight: 1
+      - path: paper_Joints/joint62
+        weight: 1
+      - path: paper_Joints/joint63
+        weight: 1
+      - path: paper_Joints/joint64
+        weight: 1
+      - path: paper_Joints/joint65
+        weight: 1
+      - path: paper_Joints/joint66
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

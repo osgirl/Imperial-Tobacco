@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 6e4832cf291b19540a055d4b13ffd0aa
+timeCreated: 1464615814
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: cigarette_Joints
+    100004: filter_coal
+    100006: filter_last
+    100008: joint1
+    100010: joint10
+    100012: joint11
+    100014: joint12
+    100016: joint13
+    100018: joint14
+    100020: joint15
+    100022: joint16
+    100024: joint17
+    100026: joint18
+    100028: joint19
+    100030: joint2
+    100032: joint20
+    100034: joint21
+    100036: joint22
+    100038: joint23
+    100040: joint24
+    100042: joint25
+    100044: joint26
+    100046: joint27
+    100048: joint28
+    100050: joint29
+    100052: joint3
+    100054: joint30
+    100056: joint31
+    100058: joint32
+    100060: joint33
+    100062: joint34
+    100064: joint35
+    100066: joint36
+    100068: joint37
+    100070: joint38
+    100072: joint39
+    100074: joint4
+    100076: joint40
+    100078: joint41
+    100080: joint42
+    100082: joint43
+    100084: joint44
+    100086: joint45
+    100088: joint46
+    100090: joint47
+    100092: joint48
+    100094: joint49
+    100096: joint5
+    100098: joint50
+    100100: joint51
+    100102: joint52
+    100104: joint53
+    100106: joint54
+    100108: joint55
+    100110: joint56
+    100112: joint57
+    100114: joint58
+    100116: joint59
+    100118: joint6
+    100120: joint60
+    100122: joint61
+    100124: joint62
+    100126: joint63
+    100128: joint64
+    100130: joint65
+    100132: joint66
+    100134: joint7
+    100136: joint8
+    100138: joint9
+    100140: paper1
+    100142: tobacco
+    400000: //RootNode
+    400002: cigarette_Joints
+    400004: filter_coal
+    400006: filter_last
+    400008: joint1
+    400010: joint10
+    400012: joint11
+    400014: joint12
+    400016: joint13
+    400018: joint14
+    400020: joint15
+    400022: joint16
+    400024: joint17
+    400026: joint18
+    400028: joint19
+    400030: joint2
+    400032: joint20
+    400034: joint21
+    400036: joint22
+    400038: joint23
+    400040: joint24
+    400042: joint25
+    400044: joint26
+    400046: joint27
+    400048: joint28
+    400050: joint29
+    400052: joint3
+    400054: joint30
+    400056: joint31
+    400058: joint32
+    400060: joint33
+    400062: joint34
+    400064: joint35
+    400066: joint36
+    400068: joint37
+    400070: joint38
+    400072: joint39
+    400074: joint4
+    400076: joint40
+    400078: joint41
+    400080: joint42
+    400082: joint43
+    400084: joint44
+    400086: joint45
+    400088: joint46
+    400090: joint47
+    400092: joint48
+    400094: joint49
+    400096: joint5
+    400098: joint50
+    400100: joint51
+    400102: joint52
+    400104: joint53
+    400106: joint54
+    400108: joint55
+    400110: joint56
+    400112: joint57
+    400114: joint58
+    400116: joint59
+    400118: joint6
+    400120: joint60
+    400122: joint61
+    400124: joint62
+    400126: joint63
+    400128: joint64
+    400130: joint65
+    400132: joint66
+    400134: joint7
+    400136: joint8
+    400138: joint9
+    400140: paper1
+    400142: tobacco
+    2300000: filter_coal
+    2300002: filter_last
+    2300004: tobacco
+    3300000: filter_coal
+    3300002: filter_last
+    3300004: tobacco
+    4300000: paper1
+    4300002: tobacco
+    4300004: filter_last
+    4300006: filter_coal
+    7400000: Open
+    7400002: Close
+    9500000: //RootNode
+    13700000: paper1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cigarette_Joints
+        weight: 1
+      - path: cigarette_Joints/joint1
+        weight: 1
+      - path: cigarette_Joints/joint2
+        weight: 1
+      - path: cigarette_Joints/joint3
+        weight: 1
+      - path: cigarette_Joints/joint4
+        weight: 1
+      - path: cigarette_Joints/joint5
+        weight: 1
+      - path: cigarette_Joints/joint6
+        weight: 1
+      - path: cigarette_Joints/joint7
+        weight: 1
+      - path: cigarette_Joints/joint8
+        weight: 1
+      - path: cigarette_Joints/joint9
+        weight: 1
+      - path: cigarette_Joints/joint10
+        weight: 1
+      - path: cigarette_Joints/joint11
+        weight: 1
+      - path: cigarette_Joints/joint12
+        weight: 1
+      - path: cigarette_Joints/joint13
+        weight: 1
+      - path: cigarette_Joints/joint14
+        weight: 1
+      - path: cigarette_Joints/joint15
+        weight: 1
+      - path: cigarette_Joints/joint16
+        weight: 1
+      - path: cigarette_Joints/joint17
+        weight: 1
+      - path: cigarette_Joints/joint18
+        weight: 1
+      - path: cigarette_Joints/joint19
+        weight: 1
+      - path: cigarette_Joints/joint20
+        weight: 1
+      - path: cigarette_Joints/joint21
+        weight: 1
+      - path: cigarette_Joints/joint22
+        weight: 1
+      - path: cigarette_Joints/joint23
+        weight: 1
+      - path: cigarette_Joints/joint24
+        weight: 1
+      - path: cigarette_Joints/joint25
+        weight: 1
+      - path: cigarette_Joints/joint26
+        weight: 1
+      - path: cigarette_Joints/joint27
+        weight: 1
+      - path: cigarette_Joints/joint28
+        weight: 1
+      - path: cigarette_Joints/joint29
+        weight: 1
+      - path: cigarette_Joints/joint30
+        weight: 1
+      - path: cigarette_Joints/joint31
+        weight: 1
+      - path: cigarette_Joints/joint32
+        weight: 1
+      - path: cigarette_Joints/joint33
+        weight: 1
+      - path: cigarette_Joints/joint34
+        weight: 1
+      - path: cigarette_Joints/joint35
+        weight: 1
+      - path: cigarette_Joints/joint36
+        weight: 1
+      - path: cigarette_Joints/joint37
+        weight: 1
+      - path: cigarette_Joints/joint38
+        weight: 1
+      - path: cigarette_Joints/joint39
+        weight: 1
+      - path: cigarette_Joints/joint40
+        weight: 1
+      - path: cigarette_Joints/joint41
+        weight: 1
+      - path: cigarette_Joints/joint42
+        weight: 1
+      - path: cigarette_Joints/joint43
+        weight: 1
+      - path: cigarette_Joints/joint44
+        weight: 1
+      - path: cigarette_Joints/joint45
+        weight: 1
+      - path: cigarette_Joints/joint46
+        weight: 1
+      - path: cigarette_Joints/joint47
+        weight: 1
+      - path: cigarette_Joints/joint48
+        weight: 1
+      - path: cigarette_Joints/joint49
+        weight: 1
+      - path: cigarette_Joints/joint50
+        weight: 1
+      - path: cigarette_Joints/joint51
+        weight: 1
+      - path: cigarette_Joints/joint52
+        weight: 1
+      - path: cigarette_Joints/joint53
+        weight: 1
+      - path: cigarette_Joints/joint54
+        weight: 1
+      - path: cigarette_Joints/joint55
+        weight: 1
+      - path: cigarette_Joints/joint56
+        weight: 1
+      - path: cigarette_Joints/joint57
+        weight: 1
+      - path: cigarette_Joints/joint58
+        weight: 1
+      - path: cigarette_Joints/joint59
+        weight: 1
+      - path: cigarette_Joints/joint60
+        weight: 1
+      - path: cigarette_Joints/joint61
+        weight: 1
+      - path: cigarette_Joints/joint62
+        weight: 1
+      - path: cigarette_Joints/joint63
+        weight: 1
+      - path: cigarette_Joints/joint64
+        weight: 1
+      - path: cigarette_Joints/joint65
+        weight: 1
+      - path: cigarette_Joints/joint66
+        weight: 1
+      - path: filter_coal
+        weight: 1
+      - path: filter_last
+        weight: 1
+      - path: paper1
+        weight: 1
+      - path: tobacco
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Close
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cigarette_Joints
+        weight: 1
+      - path: cigarette_Joints/joint1
+        weight: 1
+      - path: cigarette_Joints/joint2
+        weight: 1
+      - path: cigarette_Joints/joint3
+        weight: 1
+      - path: cigarette_Joints/joint4
+        weight: 1
+      - path: cigarette_Joints/joint5
+        weight: 1
+      - path: cigarette_Joints/joint6
+        weight: 1
+      - path: cigarette_Joints/joint7
+        weight: 1
+      - path: cigarette_Joints/joint8
+        weight: 1
+      - path: cigarette_Joints/joint9
+        weight: 1
+      - path: cigarette_Joints/joint10
+        weight: 1
+      - path: cigarette_Joints/joint11
+        weight: 1
+      - path: cigarette_Joints/joint12
+        weight: 1
+      - path: cigarette_Joints/joint13
+        weight: 1
+      - path: cigarette_Joints/joint14
+        weight: 1
+      - path: cigarette_Joints/joint15
+        weight: 1
+      - path: cigarette_Joints/joint16
+        weight: 1
+      - path: cigarette_Joints/joint17
+        weight: 1
+      - path: cigarette_Joints/joint18
+        weight: 1
+      - path: cigarette_Joints/joint19
+        weight: 1
+      - path: cigarette_Joints/joint20
+        weight: 1
+      - path: cigarette_Joints/joint21
+        weight: 1
+      - path: cigarette_Joints/joint22
+        weight: 1
+      - path: cigarette_Joints/joint23
+        weight: 1
+      - path: cigarette_Joints/joint24
+        weight: 1
+      - path: cigarette_Joints/joint25
+        weight: 1
+      - path: cigarette_Joints/joint26
+        weight: 1
+      - path: cigarette_Joints/joint27
+        weight: 1
+      - path: cigarette_Joints/joint28
+        weight: 1
+      - path: cigarette_Joints/joint29
+        weight: 1
+      - path: cigarette_Joints/joint30
+        weight: 1
+      - path: cigarette_Joints/joint31
+        weight: 1
+      - path: cigarette_Joints/joint32
+        weight: 1
+      - path: cigarette_Joints/joint33
+        weight: 1
+      - path: cigarette_Joints/joint34
+        weight: 1
+      - path: cigarette_Joints/joint35
+        weight: 1
+      - path: cigarette_Joints/joint36
+        weight: 1
+      - path: cigarette_Joints/joint37
+        weight: 1
+      - path: cigarette_Joints/joint38
+        weight: 1
+      - path: cigarette_Joints/joint39
+        weight: 1
+      - path: cigarette_Joints/joint40
+        weight: 1
+      - path: cigarette_Joints/joint41
+        weight: 1
+      - path: cigarette_Joints/joint42
+        weight: 1
+      - path: cigarette_Joints/joint43
+        weight: 1
+      - path: cigarette_Joints/joint44
+        weight: 1
+      - path: cigarette_Joints/joint45
+        weight: 1
+      - path: cigarette_Joints/joint46
+        weight: 1
+      - path: cigarette_Joints/joint47
+        weight: 1
+      - path: cigarette_Joints/joint48
+        weight: 1
+      - path: cigarette_Joints/joint49
+        weight: 1
+      - path: cigarette_Joints/joint50
+        weight: 1
+      - path: cigarette_Joints/joint51
+        weight: 1
+      - path: cigarette_Joints/joint52
+        weight: 1
+      - path: cigarette_Joints/joint53
+        weight: 1
+      - path: cigarette_Joints/joint54
+        weight: 1
+      - path: cigarette_Joints/joint55
+        weight: 1
+      - path: cigarette_Joints/joint56
+        weight: 1
+      - path: cigarette_Joints/joint57
+        weight: 1
+      - path: cigarette_Joints/joint58
+        weight: 1
+      - path: cigarette_Joints/joint59
+        weight: 1
+      - path: cigarette_Joints/joint60
+        weight: 1
+      - path: cigarette_Joints/joint61
+        weight: 1
+      - path: cigarette_Joints/joint62
+        weight: 1
+      - path: cigarette_Joints/joint63
+        weight: 1
+      - path: cigarette_Joints/joint64
+        weight: 1
+      - path: cigarette_Joints/joint65
+        weight: 1
+      - path: cigarette_Joints/joint66
+        weight: 1
+      - path: filter_coal
+        weight: 1
+      - path: filter_last
+        weight: 1
+      - path: paper1
+        weight: 1
+      - path: tobacco
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
