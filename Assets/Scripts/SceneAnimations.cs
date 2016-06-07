@@ -13,6 +13,7 @@ public class SceneAnimations : MonoBehaviour {
     public GameObject info2;
     // Use this for initialization
     void Start () {
+        Screen.orientation = ScreenOrientation.Landscape;
 //        info1.GetComponent<InfoPanel>().Open();
     }
 
