@@ -9,10 +9,12 @@ public class SceneAnimations : MonoBehaviour {
     bool isMoving;
     public GameObject info;
     bool isSigaretteOnScreen;
+    public GameObject info1;
+    public GameObject info2;
     // Use this for initialization
     void Start () {
-	
-	}
+//        info1.GetComponent<InfoPanel>().Open();
+    }
 
     void OnEnable() {
 //        StartCoroutine(Open());
@@ -40,14 +42,20 @@ public class SceneAnimations : MonoBehaviour {
 
                 if (Physics.Raycast(ray, out hit, 1000) && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
                 {
-                    if (hit.transform.gameObject.tag == "Sigarette")
+                    if (hit.transform.gameObject.tag == "Sigarette" && !isMoving)
                     {
                         if (isOpen) StartCoroutine(CloseSigarette(hit.transform.gameObject));
-                        else StartCoroutine(Open(hit.transform.gameObject));
+                        else {
+                            StartCoroutine(Open(hit.transform.gameObject));
+                            info2.GetComponent<InfoPanel>().Close();
+                        } 
                     }
                     if (hit.transform.gameObject.tag == "Podium" && !isOpen &&!isMoving) {
                         if (isSigaretteOnScreen) StartCoroutine(Close());
-                        else StartCoroutine(Open());
+                        else {
+                            StartCoroutine(Open());
+                            info1.GetComponent<InfoPanel>().Close();
+                        } 
                     }
                 }
 
@@ -63,15 +71,21 @@ public class SceneAnimations : MonoBehaviour {
 
                 if (Physics.Raycast(ray, out hit, 1000) && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
                 {
-                    if (hit.transform.gameObject.tag == "Sigarette")
+                    if (hit.transform.gameObject.tag == "Sigarette" && !isMoving)
                     {
                         if (isOpen) StartCoroutine(CloseSigarette(hit.transform.gameObject));
-                        else StartCoroutine(Open(hit.transform.gameObject));
+                        else {
+                            StartCoroutine(Open(hit.transform.gameObject));
+                            info2.GetComponent<InfoPanel>().Close();
+                        }
                     }
                     if (hit.transform.gameObject.tag == "Podium"&& !isOpen && !isMoving)
                     {
                         if (isSigaretteOnScreen) StartCoroutine(Close());
-                        else StartCoroutine(Open());
+                        else {
+                            StartCoroutine(Open());
+                            info1.GetComponent<InfoPanel>().Close();
+                        }
                     }
                 }
 
@@ -84,10 +98,11 @@ public class SceneAnimations : MonoBehaviour {
     {
         isMoving = true;
         go.GetComponent<Animator>().SetTrigger("Open");
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         info.SetActive(true);
         isOpen = true;
         isMoving = false;
+
     }
 
     IEnumerator CloseSigarette(GameObject go)
@@ -99,6 +114,7 @@ public class SceneAnimations : MonoBehaviour {
         go.GetComponent<Animator>().SetTrigger("Close");
         yield return new WaitForSeconds(1.5f);
         isMoving = false;
+        info2.GetComponent<InfoPanel>().Open();
     }
 
     IEnumerator Open() {
@@ -121,10 +137,12 @@ public class SceneAnimations : MonoBehaviour {
         }
         isMoving = false;
         isSigaretteOnScreen = true;
+        info2.GetComponent<InfoPanel>().Open();
     }
 
     IEnumerator Close()
     {
+        info2.GetComponent<InfoPanel>().Close();
         isMoving = true;
         Transform sig = sigarette.transform;
         while (sig.localScale.x > 1.7f)
@@ -144,6 +162,7 @@ public class SceneAnimations : MonoBehaviour {
         podium.GetComponent<Animator>().SetTrigger("Close");
         isMoving = false;
         isSigaretteOnScreen = false;
+        info1.GetComponent<InfoPanel>().Open();
         //      yield return new WaitForSeconds(1);
     }
 }
